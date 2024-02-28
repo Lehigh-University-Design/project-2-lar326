@@ -2,6 +2,8 @@ body{
     background-color: #F6C0C4;
     padding-left: 1em;
     padding-right:1em;
+    overflow: scroll;
+  position: relative;
 }
 
 masthead {
@@ -75,6 +77,11 @@ masthead {
     gap: 2em;
     margin-bottom: 1em;
     color: black;
+  }
+
+  .sidebar{
+    position: sticky;
+
   }
   
   .post {
