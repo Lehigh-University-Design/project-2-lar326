@@ -6,6 +6,23 @@ body{
   position: relative;
 }
 
+p{
+  width: 50%;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+}
+
+h2{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 50px;
+  font-weight: 600;
+  font-style: normal;
+}
+
 masthead {
     display: flex;
     justify-content: flex-end;
@@ -53,12 +70,21 @@ masthead {
 
   .intro{
     margin-top:8em;
-    margin-bottom: 20em;
+    margin-bottom:25em;
     h2{
         color: #CF5F5F;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-size: 50px;
+        font-weight: 700;
+        font-style: normal;
     }
-    p{
-        width: 50%
+    h1{
+      font-family: "Outfit", sans-serif;
+      font-optical-sizing: auto;
+      font-size: 70px;
+      font-weight: 400;
+      font-style: normal;
     }
   }
 
@@ -150,6 +176,7 @@ masthead {
     }
     h2{
         color:white;
+        font-size: 40px;
     }
   }
   
