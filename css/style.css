@@ -29,11 +29,21 @@ masthead {
     padding: 1em 2em;
     color: black;
     margin-bottom: 1em;
+
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 15px;
+  font-style: normal;
   }
   
   masthead h1 {
     margin-right: auto;
-    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 15px;
+  font-style: normal;
     text-transform: uppercase;
     margin: 0 auto 0 0;
   }
@@ -167,14 +177,11 @@ masthead {
     transform: translate(-50%, -50%);
   }
 
-
-.sticky{
-  position: sticky;
-  top:2rem;
-  
-}
-
   .post {
+    position: sticky;
+    position: -webkit-sticky;
+    top:2rem;
+    width: 300px;
     margin-bottom: 1em;
     background-color: #FFD6D9;
     padding: .75em;
