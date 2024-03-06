@@ -1,11 +1,5 @@
-<<<<<<< Updated upstream
-
 const items = document.querySelectorAll('.video-container');
 
-=======
-const items = document.querySelectorAll('.video-container');
-
->>>>>>> Stashed changes
 items.forEach(item => {
   // see change below
   const video = item.querySelector('video');
