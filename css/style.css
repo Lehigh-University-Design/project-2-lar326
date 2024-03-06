@@ -147,13 +147,14 @@ masthead {
     height:auto;
     display: block;
     padding: 5px;
-    margin: 20%;
+    margin: 24%;
     margin-top:0;
     margin-bottom:0;
   }
 
   .video-container{
     position: relative;
+    
   }
 
   .video-container .hover-text{
@@ -165,10 +166,9 @@ masthead {
     height: auto;
     display: block;
     margin-right: 2em;
-    transform: translate(calc(-50% -24px), -50%);
+    transform: translate(calc(-50% ), -50%);
     background: white;
     padding: 10px;
-    
     /*box-shadow: 4px 4px 50px -4px black;*/
     opacity: 0;
     transition: all 400ms ease;
@@ -216,7 +216,7 @@ masthead {
         padding: 18px;
         text-align: left;
         width:100%;
-        border: .5px solid black;
+        border: .5px solid #777;
         outline: none;
         transition: 0.4s;
         img{
@@ -231,10 +231,36 @@ masthead {
         font-size: 15px;
         font-style: normal;
       }
+
+      a{
+        color: #444;; 
+        background-color: transparent; 
+        text-decoration: none;
+      }
+      a:hover {
+        color: #CF5F5F;
+        text-decoration: underline;
+
+      }
+      a:active {
+        color: #b93e3e;
+      }
+
+      .accordion:after {
+        content: '\02795'; /* Unicode character for "plus" sign (+) */
+        font-size: 13px;
+        color: #777;
+        float: right;
+        margin-left: 5px;
+      }
       
       /*background color when clicked or hover*/
       .active, .accordion:hover {
-        background-color: #ccc;
+        background-color: #e48282;
+      }
+
+      .active:after {
+        content: "\2796"; /* Unicode character for "minus" sign (-) */
       }
       .panel {
         background-color: #FFD6D9;
