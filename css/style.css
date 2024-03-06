@@ -73,7 +73,7 @@ masthead {
   }
   
   masthead a:hover {
-    color: coral;
+    color: #CF5F5F;
   }
 
 
@@ -119,8 +119,7 @@ masthead {
     font-family: "Outfit", sans-serif;
         font-optical-sizing: auto;
         font-size: 50;
-        font-weight: 100;
-        font-style: regular;
+        font-weight: 400;
   }
 
 #content {
@@ -147,7 +146,9 @@ masthead {
     height:auto;
     display: block;
     padding: 5px;
-    margin: 20%
+    margin: 20%;
+    margin-top:0;
+    margin-bottom:0;
   }
 
   .video-container{
@@ -191,6 +192,7 @@ masthead {
         padding-bottom: 0;
         margin: 5px;
         font-size: 25px;
+        font-weight:400;
         color: #CF5F5F;
     }
     .img-container {
@@ -264,6 +266,8 @@ masthead {
     h2{
         color:white;
         font-size: 40px;
+        font-weight:400;
+        margin:5px;
     }
   }
   
